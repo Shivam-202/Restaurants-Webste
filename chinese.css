@@ -1,0 +1,625 @@
+*{
+    padding: 0px;
+    margin: auto;
+}
+
+#header{ 
+    height: 70px;
+   width: 96%;
+    background-color: rgb(92, 84, 84); 
+    position: fixed;
+    top: 0px;
+    left: 27px;
+    z-index: 1;     
+}
+
+.logo{
+    height: 60px;
+    padding-top: 5px;
+    padding-left: 30px;
+}
+
+.shoping{
+    height: 50px;
+    float: right;
+    position: relative;
+    top: -55px;   
+    right: 40px;   
+
+    border-radius: 10px;   
+    cursor: pointer;
+}
+
+.navi li{
+    list-style: none;
+   display: inline;
+   padding: 20px;  
+}
+.navi a{
+   text-decoration: none;
+   font-size: 23px;
+   font-weight: bold;
+   font-family: Arial, Helvetica, sans-serif; 
+   color: white;  
+   padding: 8px;
+   border-radius: 15px;
+}
+.navi{
+    float: right;
+    margin-top: -50px;
+    margin-right: 120px;
+}
+
+.navi a:hover{
+    height: auto;
+    font-size: 23px;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif; 
+    background-color:rgb(150, 246, 60);
+    color: black;
+}
+
+.active a{
+    height: auto;
+    font-size: 23px;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif; 
+    background-color:rgb(150, 246, 60);
+    color: black;
+}
+
+.bgImage{
+    height: 400px;
+    width: 96%;
+    position: relative;
+    top: 70px;
+    background-image: url("images/background (1).jpeg");   
+    background-size: cover;
+}
+
+.logo1{
+    height: 140px;
+    margin-top: -45px;
+    margin-left: 20px;
+    transition: 0.5s ease-in;
+}
+.logo1:hover{
+    transform: rotate(720deg);
+}
+
+.wellcome-row{
+
+    height: 50px;
+    width: 650px;
+    background-color: rgb(255, 145, 0);
+    border-radius: 20px; 
+   position: relative;
+   top: 50px;
+    color: rgb(190, 185, 185);  
+  
+    animation-name: something;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+}
+
+@keyframes something {
+    0%{
+        background-color: rgb(255, 145, 0);
+        color: rgb(253, 250, 250);
+    }
+    20%{
+        background-color: rgb(155, 228, 19);
+        color: rgb(47, 0, 255);
+    }
+    30%{
+        background-color: rgb(8, 209, 209);
+    }
+    40%{
+        background-color: rgb(235, 50, 142);
+    }
+    50%{
+        background-color: rgb(38, 0, 255);
+    }
+    60%{
+        background-color: rgb(228, 36, 19);
+        color: rgb(229, 255, 0);
+    }
+    70%{
+        background-color: rgb(0, 0, 0);
+        color:forestgreen
+    }
+    80%{
+        background-color: rgb(247, 0, 255);
+    }
+    90%{
+        background-color: rgb(255, 240, 36);
+        color: rgb(255, 0, 0);
+    }
+    100%{
+        background-color: rgb(94, 10, 109);
+        color: rgb(202, 202, 202);
+    }
+}
+
+.wellcome{
+   text-decoration: none;
+   font-size: 30px;
+   font-weight: 900;
+   font-family: Arial, Helvetica, sans-serif; 
+   padding-left: 20px;
+    position:relative;
+    bottom: 60px;  
+}
+
+.bor{
+    height: 300px;
+    width: 700px;
+    border: 2px solid red;
+}
+
+.take{
+    font-size: 50px;
+    color: rgb(255, 0, 0);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    padding-top: 120px;
+    padding-left: 500px;
+
+    animation-name: take;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+}
+
+@keyframes take {
+    0%{
+        
+        color: rgb(0, 0, 0);
+    }
+    20%{
+       
+        color: rgb(47, 0, 255);
+    }
+    30%{
+       color: rgb(0, 153, 255);
+    }
+    40%{
+       color: rgb(255, 0, 128);
+    }
+    50%{
+       color: rgb(38, 0, 255);
+    }
+    60%{
+        color: rgb(255, 21, 0);
+        
+    }
+    70%{
+        
+        color:rgb(0, 255, 0)
+    }
+    80%{
+     color: rgb(247, 0, 255);
+    }
+    90%{
+        color: rgb(255, 238, 0);
+    
+    }
+    100%{
+        color: rgb(217, 0, 255);
+       
+    }
+}
+
+.happy{
+    font-size: 28px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: italic;
+    background-image: linear-gradient(to right,rgb(255, 0, 106),yellow ,blue);
+    text-align: center;
+    position: relative;
+    top: 20px;
+
+    height: 40px;
+    width: 500px;
+    padding-top:5px;
+    border: 10px double rgb(0, 0, 0);
+}
+
+.started a{
+   
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif; 
+    text-align: center;
+    text-decoration: none;
+     background-color: white;
+     color: rgb(0, 0, 0);
+    border: 2px solid gray;
+    border-radius: 7px;
+    
+    padding: 5px 20px 5px 20px;
+
+    position: relative;
+    top: 50px;
+    left: 570px;
+}
+
+.started a:hover{
+    background-color: rgb(255, 115, 0);
+    color: white;
+}
+
+.black-yellow{
+    height: 170px;
+    width: 96%;
+    margin-top: 75px;
+   background-image: radial-gradient(circle at 20% -80%,black 55% ,yellow 40%);
+}
+
+h3{
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-style: italic;
+    padding-top: 20px;
+    padding-left: 100px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+
+h1{
+    font-size: 45px;
+    font-family: Arial;
+    color: white;
+    padding-top: 8px;
+    padding-left: 170px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+
+h4{
+    font-size: 20px;
+    font-family: Arial;
+    font-style: italic;
+    color: rgb(251, 255, 0);
+    padding-top: 8px;
+    padding-left: 270px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+
+.service{
+    width: 250px;
+    font-size: 35px;
+    text-align: center;
+    font-family: cursive;
+    font-weight: bold;
+    border-bottom: 10px dotted rgb(255, 0, 0);
+    margin-top: 10px;
+    margin-bottom:  30px;
+    background-image: linear-gradient(rgb(246, 162, 162),rgb(106, 226, 106),rgb(80, 80, 212));
+    color: rgb(0, 0, 0);
+    display: block;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;  /* default */
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+    gap: 40px;
+}
+
+.item{
+    height: 400px;
+    width: 300px;
+   border: 2px solid gray;
+   margin-top: 10px;
+   position: relative;  /* add to card hover ke liye*/
+}
+.item:hover{
+    box-shadow: 1px 1px 7px 2px gray;
+    transform: scale(1.05,1.05);
+}
+
+.item img{
+    height: 200px;
+    width: 100%;
+}
+
+.add{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(52, 218, 30);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    position:absolute;
+    left: 0px;
+    bottom: -41px;
+    opacity: 0;
+    transition: 1s;
+    cursor:pointer;
+}
+
+.item:hover .add{
+    opacity: 1;
+    bottom: 0px;
+}
+
+.text{
+    font-size: 18px;
+    text-align: center;
+    display: block;
+}
+
+.price{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;  
+    text-align: center;
+    padding-top: 5px;
+}
+
+.foot{
+    height: 200px;
+    width: 96%;
+    background-image: linear-gradient( rgb(156, 151, 151) 50%,rgb(0, 0, 0) 50%);
+}
+
+@media screen and ( max-width: 421px) {
+    #header{ 
+        height: 70px;
+       width: 100%;
+       left: 0px;
+    }
+    .navi a{
+        text-decoration: none;
+        font-size: 18px;
+       
+     }
+     .active a{
+        height: auto;
+        font-size: 18px;
+        color: black;
+    
+    }
+
+    .bgImage{
+        height: 370px;
+        width: 250%;
+        
+    }
+
+    .take{
+        padding-top: 100px;
+        padding-left: 370px;
+    }
+    .started a{
+       left: 450px;
+    }
+    .black-yellow{
+      
+        width:250%;
+        
+    }
+    h3{
+        font-size: 25px;
+        padding-left: 60px;
+    }
+    
+    h1{
+        padding-left: 120px;
+    }
+    
+    h4{
+        font-size: 25px;
+        padding-left: 200px; 
+    }
+    .service{
+       margin-left: 400px;
+    }
+    .container{
+        display: grid;
+        grid-template-columns: 300px 300px 300px;
+        column-gap: 50px;
+        margin-left: 20px;
+    }
+    .foot{
+        width: 250%;
+        
+    }
+}
+
+/* Add to item in the card */
+
+#addtobox{
+    visibility: hidden;
+    position: relative;
+    top: 0;
+    right: 0;
+   
+}
+
+#closebtn{
+    position: relative;
+    top: 0px;
+    left: 100px;
+}
+/* close button css*/
+button{
+    background-color: rgb(255, 0, 0);
+    font-size: 22px;
+    color: white;
+    font-weight: bold;
+    padding: 2px 7px;
+    border: none;
+    display: none;
+    cursor: pointer;
+}
+#time{
+    margin: 5px;
+    
+}
+#count{
+    background-color: rgb(251, 45, 45);
+    font-size: 14px;
+    color: white;
+    padding: 1px 3px;
+    border-radius: 50%;
+
+    float: right;
+    position: relative;
+    top: -65px;
+    left: 18px;
+    visibility: hidden;
+}
+#addtobox span:first-child{
+    font-size: 18px;
+}
+#addtobox span:nth-child(2){
+    font-size: 35px;
+    color:black;
+    font-family: sans-serif;
+    font-weight: bold;
+    
+}
+
+.miniHead{
+    width: 82.1%;
+    
+    background-color: rgb(47, 213, 255);
+    border-bottom: 1px solid gray;
+    position: fixed;
+
+    display: flex;
+    align-items: center;
+    z-index: 1;
+}
+
+
+.yourItem{
+    width: 95%;
+   display: grid;
+   grid-template-columns: 200px 140px 300px 70px 130px 30px 50px 30px 50px;
+   align-items: center;
+   margin-top: 60px;
+}
+
+.images{
+    height: 150px;
+    width: 200px;
+    margin: 0px;
+    margin-bottom: 10px;  
+}
+
+.names{
+    height: 30px;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0px;
+   text-align: center;
+   margin-top: 30px;
+   margin-bottom: 134.2px;
+}
+
+.titles{
+    height: 80px;
+    font-size: 18px;
+    text-align: center;
+    margin: 0px;
+    margin-top: 10px;
+    margin-bottom: 84.2px;
+    
+}
+.prices{
+    height: 40px;
+    font-size: 25px;
+    /* font-weight: bold; */
+    margin: 0px;
+    margin-bottom: 124.2px;
+    margin-top: 30px;
+    margin-left: 5px;
+}
+
+.removes{
+    height: 30px;
+    font-size: 25px;
+    color: rgb(255, 39, 39);
+    font-weight: 900;
+    padding: 5px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 0px;
+    margin-top: 25px;
+    margin-bottom: 124.2px;
+}
+
+.decrease{
+    height: 30px;
+    font-size: 25px;
+    background-color: rgb(202, 202, 245);
+    text-align: center;
+    margin: 0px;
+    margin-top: 0px;
+    margin-bottom: 134.2px;
+    cursor: pointer;
+}
+.decrease:hover{
+    background-color: red;
+}
+
+.num{
+    height: 30px;
+    font-size: 18px;
+    border: 1px solid gray;
+    text-align: center;
+    margin: 0px;
+    margin-top: 0px;
+    margin-bottom: 132.2px;
+}
+
+.increase{
+    height: 30px;
+    width: 30px;
+    font-size: 25px;
+    background-color: rgb(202, 202, 245);
+    text-align: center;
+    margin: 0px;
+    margin-top: 0px;
+    margin-bottom: 134.2px;
+    cursor: pointer;
+}
+.increase:hover{
+    background-color: lawngreen;
+}
+
+.priceCal{
+    height: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0px;
+    margin-top: 40px;
+    margin-bottom: 144.2px;
+}
+#itmEmt{
+   font-size: 30px;
+   font-family: sans-serif;
+   font-weight: bold;
+   text-align: center;
+   position: relative;
+   top: 200px;
+}
+.btnEmt{
+    width: 100px;
+    font-size: 22px;
+    color: white;
+    background-color: rgb(27, 100, 236);
+    position: relative;
+    top: 210px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
