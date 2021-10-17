@@ -8,10 +8,6 @@ function ope() {
 
         emtbtn = document.getElementsByClassName("btnEmt")[0];
         emtbtn.innerText = "Shop Now";
-
-        // document.getElementsByClassName("decrease")[0].style.display = "none";
-        // document.getElementsByClassName("num")[0].style.display = "none";
-        // document.getElementsByClassName("increase")[0].style.display = "none";
         document.getElementsByClassName("removes")[0].style.display = "none";
 
     }
@@ -22,9 +18,6 @@ function ope() {
         emtbtn = document.getElementsByClassName("btnEmt")[0];
         emtbtn.innerText = "";
 
-        // document.getElementsByClassName("decrease")[0].style.display = "unset";
-        // document.getElementsByClassName("num")[0].style.display = "unset";
-        // document.getElementsByClassName("increase")[0].style.display = "unset";
         document.getElementsByClassName("removes")[0].style.display = "unset";
     }
 
@@ -60,21 +53,6 @@ function counting() {
 
 }
 
-// var noItem = 1;
-// var pric1;
-// function increment() {
-//     noItem = noItem + 1;
-//     document.getElementById("numberItem").innerText = noItem;
-   
-// }
-// function decrement() {
-//     if (noItem > 1) {
-
-//         noItem--;
-//         document.getElementById("numberItem").innerText = noItem;
-//     }
-// }
-
 
 function removing(el){
 
@@ -84,22 +62,11 @@ function removing(el){
     var pricRe = document.getElementsByClassName("prices")[0];
     var remoRe = document.getElementsByClassName("removes")[0];
 
-    // var decRe = document.getElementsByClassName("decrease")[0];
-    // var numRe = document.getElementsByClassName("num")[0];
-    // var incRe = document.getElementsByClassName("increase")[0];
-    // var priceCaRe = document.getElementsByClassName("priceCal")[0];
-
-
     imgRe.removeChild(imgRe.children[0]);
     namRe.removeChild(namRe.children[0]);
     titRe.removeChild(titRe.children[0]);
     pricRe.removeChild(pricRe.children[0]);
     remoRe.removeChild(remoRe.children[0]);
-
-    // decRe.removeChild(decRe.children[0]);
-    // numRe.removeChild(numRe.children[0]);
-    // incRe.removeChild(incRe.children[0]);
-    // priceCaRe.removeChild(priceCaRe.children[0]);
 
     itemCount--;
     if (itemCount > 0) {
@@ -119,9 +86,6 @@ function removing(el){
         emtbtn = document.getElementsByClassName("btnEmt")[0];
         emtbtn.innerText = "Shop Now";
 
-        // document.getElementsByClassName("decrease")[0].style.display = "none";
-        // document.getElementsByClassName("num")[0].style.display = "none";
-        // document.getElementsByClassName("increase")[0].style.display = "none";
         document.getElementsByClassName("removes")[0].style.display = "none";
     }
 }
@@ -166,29 +130,6 @@ function allItem(elem) {
     nodes4.setAttribute("name", i++);
     nodes4.classList.add("removes");
     document.getElementsByClassName("removes")[0].appendChild(nodes4);
-   
-    // var nodes5 = document.createElement("div");
-    // nodes5.innerText = "-" + "\r\n \r\n Total:-";
-    // nodes5.setAttribute("class", "decrease");
-    // nodes5.classList.add("decrease");
-    // document.getElementsByClassName("decrease")[0].appendChild(nodes5);
-
-    // var nodes6 = document.createElement("div");
-    // nodes6.innerText = noItem;
-    // nodes6.setAttribute("class", "num");
-    // document.getElementsByClassName("num")[0].appendChild(nodes6);
-
-    // var nodes7 = document.createElement("div");
-    // nodes7.innerText = "+";
-    // nodes7.setAttribute("class", "increase");
-    // nodes7.classList.add("increase");
-    // document.getElementsByClassName("increase")[0].appendChild(nodes7);
-
-    // var nodes8 = document.createElement("div");
-    // nodes8.innerText = pric1;
-    // nodes8.setAttribute("class", "priceCal");
-    // document.getElementsByClassName("priceCal")[0].appendChild(nodes8);
-
 
     //    }
 }
